@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>SpaceX App</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="root">
+      <header>
+        <h1>SpaceX Launch Programs</h1>
+      </header>
+      <main>
+        <div class="app-container">
+          <div class="filterContainer">
+            <div style="font-weight: bold">Filters</div>
+            <div>
+              <div class="filterLabels">Launch Year</div>
+              <br />
+              <div class="btn-container">
+                <button  id="myBtn1" class="buttonstyle  btn">2006</button
+                ><button id="myBtn2" class="buttonstyle  btn">2007</button>
+                <button  id="myBtn3" class="buttonstyle  btn">2008</button
+                ><button id="myBtn4" class="buttonstyle  btn">2009</button
+                ><button id="myBtn5" class="buttonstyle  btn">2010</button
+                ><button id="myBtn6" class="buttonstyle  btn">2011</button
+                ><button id="myBtn7" class="buttonstyle  btn">2012</button
+                ><button id="myBtn8" class="buttonstyle  btn">2013</button
+                ><button id="myBtn9" class="buttonstyle  btn">2014</button
+                ><button id="myBtn10" class="buttonstyle btn">2015</button
+                ><button id="myBtn11" class="buttonstyle btn">2016</button
+                ><button id="myBtn12" class="buttonstyle btn">2017</button
+                ><button id="myBtn13" class="buttonstyle btn">2018</button
+                ><button id="myBtn14" class="buttonstyle btn">2019</button
+                ><button id="myBtn15" class="buttonstyle btn">2020</button>
+              </div>
+            </div>
+            <div>
+              <div class="filterLabels">Successful Launch</div>
+              <br />
+              <div class="btn-container">
+                <button id="myBtn16" class="buttonstyle btn">true</button
+                ><button id="myBtn18" class="buttonstyle btn">false</button> 
+              </div>
+            </div>
+            <div>
+              <div class="filterLabels">Successful Landing</div>
+              <br />
+              <div class="btn-container">
+                <button  id="myBtn17" class="buttonstyle btn">true</button
+                ><button id="myBtn19" class="buttonstyle btn">false</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="main-app" class="launchView"></div>
+
+          
+        </div>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
